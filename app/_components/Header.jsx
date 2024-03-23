@@ -22,7 +22,7 @@ function Header() {
                     <span></span>
                     <Image src='/assets/image.png' width={180} height={80} alt='Fixxit Physio' />
                 </div>
-                <div className=' sm:hidden'>
+                <div className=''>
                     <ul className=' flex gap-10'>
                         {Menu.map((item, index) => (
                             <Link href={item.path} key={index}>

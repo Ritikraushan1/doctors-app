@@ -11,12 +11,12 @@ function Hero() {
                         <div className=' lg:py-24'>
                             <div className=''>
                                 <div>
-                                    <h2 className=' text-4xl font-bold sm:text-4xl'>
-                                        <span>Find & Book </span>
-                                        <span className=' text-blue-700'>Appointment </span>
-                                        <span>With<br /> Your fav </span>
-                                        <span className=' text-blue-700'>Physiotherapists</span>
-                                    </h2>
+                                    <p className=' text-4xl font-bold sm:text-4xl leading-10'>
+                                        Find & Book
+                                        <span className=' text-blue-700'> Appointment </span>
+                                        With Your fav
+                                        <span className=' text-blue-700'> Physiotherapists</span>
+                                    </p>
                                 </div>
                                 <div className='mt-6 text-gray-500'>
                                     <p className=' leading-7'>
@@ -28,8 +28,8 @@ function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <div className=" relative h-64 overflow-hidden rounded-lg sm:h-80 lg:order-last lg:h-full">
-                            <Image src='/assets/8443649.jpg' width={650} height={550} />
+                        <div className=" relative h-64 overflow-hidden sm:h-80 lg:order-last lg:h-full">
+                            <Image src='/assets/8443649.jpg' width={650} height={550} className=' rounded-lg' />
                         </div>
                     </div>
                 </div>
