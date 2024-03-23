@@ -2,6 +2,9 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
+import Image from "next/image";
+import Orthopedic from '../../Assets/orthopedic.png'
 
 function SearchPhysiotherapists() {
     return (
@@ -23,6 +26,14 @@ function SearchPhysiotherapists() {
                 <div>
                     <Button type="submit"><FaSearch className=" mr-2" />Search</Button>
                 </div>
+            </div>
+            {/* Category Section Started here*/}
+            <div className=" grid grid-cols-3 mt-5 md:grid-cols-4 lg:grid-cols-6 ">
+                <Link href="#" className=" flex flex-col text-center items-center p-5 bg-blue-50 m-2 rounded-lg cursor-pointer gap-2 hover:scale-110 transition-all ease-in-out">
+                    <Image src={Orthopedic} alt='icon' width={40} height={40} />
+                    <label className='text-blue-600 text-sm'>Orthopedic</label>
+                </Link>
+
             </div>
         </div>
     );
